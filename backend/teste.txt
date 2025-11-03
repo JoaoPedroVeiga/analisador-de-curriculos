@@ -1,0 +1,6 @@
+Currículo de Teste
+Nome: João Silva
+Email: joao.silva@email.com
+Experiência: 5 anos como Desenvolvedor
+Habilidades: JavaScript, Node.js, React
+Formação: Ciência da Computação

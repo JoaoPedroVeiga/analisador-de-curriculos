@@ -1,0 +1,15 @@
+services:
+  postgres-analisador-curriculos:
+    container_name: analisador-curriculos-db
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: analisador-curriculos
+    volumes:
+      - analisador-curriculos-data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+
+volumes:
+  analisador-curriculos-data:
